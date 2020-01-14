@@ -1,0 +1,4 @@
+# minimal-dotfiles
+
+- vim
+- zsh
