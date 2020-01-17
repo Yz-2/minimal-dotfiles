@@ -1,4 +1,7 @@
 # minimal-dotfiles
 
-- vim
-- zsh
+vimとzshの設定
+
+# ファイル
+- .vimrc
+- .zshrc
