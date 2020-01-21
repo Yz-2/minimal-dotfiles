@@ -1,11 +1,10 @@
 #########################
 # .zshrc
 #########################
-##プロファイル表示 start
-#zmodload zsh/zprof && zprof
 ## Pathを設定
-path=(/usr/local/bin(N-/) /usr/bin(N-/) /bin(N-/) $path)
-path=(/usr/local/sbin(N-/) /usr/sbin(N-/) /sbin(N-/) $path)
+#path=(/usr/local/bin(N-/) /usr/bin(N-/) /bin(N-/) $path)
+#path=(/usr/local/sbin(N-/) /usr/sbin(N-/) /sbin(N-/) $path)
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ## 補完機能を有効
 autoload -Uz compinit
 compinit
@@ -65,7 +64,3 @@ alias mv='mv -i'
 alias mkdir='mkdir -p'
 ## ファイル内の文字列検索
 alias word='find ./ -type f -print | xargs grep'
-## プロファイル表示 end
-#if (which zprof > /dev/null 2>&1) ;then
-#  zprof
-#fi
