@@ -1,6 +1,6 @@
 # minimal-dotfiles
 
-vimとzshの設定
+vimとzshの最低限の設定
 
 # ファイル
 - .vimrc
