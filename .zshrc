@@ -35,6 +35,8 @@ setopt hist_reduce_blanks
 setopt print_eight_bit
 ## フローコントロールを無効にする
 setopt no_flow_control
+## ワイルドカードを使えるようにする
+setopt nonomatch
 ## 色を使用出来るようにする
 autoload -Uz colors
 colors
