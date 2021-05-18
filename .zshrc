@@ -70,3 +70,6 @@ alias mv='mv -i'
 alias mkdir='mkdir -p'
 ## ファイル内の文字列検索
 alias word='find ./ -type f -print | xargs grep'
+## path表示
+aliased epath='echo $PATH | tr ":" "\n"'
+
