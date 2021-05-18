@@ -4,7 +4,8 @@
 ## Pathを設定
 #path=(/usr/local/bin(N-/) /usr/bin(N-/) /bin(N-/) $path)
 #path=(/usr/local/sbin(N-/) /usr/sbin(N-/) /sbin(N-/) $path)
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 ## 補完機能を有効
 autoload -Uz compinit
 compinit
