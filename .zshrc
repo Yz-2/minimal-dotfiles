@@ -72,4 +72,3 @@ alias mkdir='mkdir -p'
 alias word='find ./ -type f -print | xargs grep'
 ## path表示
 aliased epath='echo $PATH | tr ":" "\n"'
-
